@@ -4,7 +4,7 @@ Introduction To Programming With Java And Object-Oriented Programming
 Table of Contents
 ------------------
 * Lecture 2 - Introduction
-* Lecture 3 - 
+* Lecture 3 - Data Types, Operators, Casting, Constants, Operator Precedence, Formatting, Scanner Input Method
 * Lecture 4
 * Lecture 5
 * Lecture 6
