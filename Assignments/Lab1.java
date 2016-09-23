@@ -65,10 +65,10 @@ public class Lab1 {
 	 * 		2. Declares an int variable called radius and sets its value to 5
 	 * 		3. Uses the formula V = 4/3 PI radius^3 to calculate the volume. Show the result to exactly three digits past the decimal point.		
 	 */
-	final double pi = 3.1416;
+	final double PI = 3.1416;
 	int radius = 5;
 	double V;
-	V = (4 * pi * (radius * radius * radius))/3;
+	V = (4 * PI * (radius * radius * radius))/3;
 	System.out.format("6.) Volume of the sphere :- %.3f \n" , V);
 	
 	/**
@@ -86,7 +86,6 @@ public class Lab1 {
 	 * 8.) Uses the formula C = (F - 32) * 5/9 to convert the following values from fahrenheit to celsius: -40, 0, and 212.
 	 */
 	Lab1 obj = new Lab1();
-	obj.converter(-40);
 	System.out.println("8.) \n\t -40 Fahrenheit :- " + obj.converter(-40) + " celsius");
 	System.out.println("\t 0 Fahrenheit :- " + obj.converter(0) + " celsius");
 	System.out.println("\t 212 Fahrenheit :- " + obj.converter(212) + " celsius");
