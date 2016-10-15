@@ -1,5 +1,5 @@
 # CS2010-Computer-Programming-Fundamentals
-Introduction To Programming With Java And Object-Oriented Programming
+Introduction To Programming With Java
 
 Table of Contents
 ------------------
