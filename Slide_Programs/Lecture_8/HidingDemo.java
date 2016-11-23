@@ -14,4 +14,5 @@ public class HidingDemo {
 		x = 2;		
 		return x;   // this x “hides” the global x
 	}
+	
 }

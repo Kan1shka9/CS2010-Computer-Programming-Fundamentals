@@ -9,12 +9,17 @@ import java.util.Scanner;
 public class ReadDouble2 {
 
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
 		double stuff = 0.0; 
+		
 		do {
 			System.out.print("Input a double. Enter 0 to quit:");
 			stuff = input.nextDouble();
-			System.out.println("\nYou entered: " + stuff);
 		} while (stuff != 0.0);
+		
+		System.out.println("\nYou entered: " + stuff);
+		
 	}
+	
 }

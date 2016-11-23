@@ -26,6 +26,7 @@ public class ShiftElementLeft {
 		for (int j = 0; j < myList.length; j++) {
 			  System.out.print(myList[j] + " ");
 		}
+		
 	}
 
 }

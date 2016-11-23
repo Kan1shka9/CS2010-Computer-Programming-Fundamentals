@@ -10,9 +10,11 @@ import java.util.*;
 public class Validation5 {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		int value = 0;
 		String badInputString = null;
+		
 		do {
 			System.out.println("Enter an integer greater than 100");
 			while ((sc.hasNextInt() == false)) {
@@ -22,6 +24,9 @@ public class Validation5 {
 			value = sc.nextInt();
 			sc.nextLine();  // throw away line feed
 		} while (value <= 100);
+		
 		System.out.println(value);
+		
 	}
+	
 }

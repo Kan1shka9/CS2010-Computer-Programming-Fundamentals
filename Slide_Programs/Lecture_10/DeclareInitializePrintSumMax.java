@@ -5,6 +5,7 @@ import java.util.*;
 public class DeclareInitializePrintSumMax {
 
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);
 		
 		// Declare an array of type double
@@ -34,10 +35,12 @@ public class DeclareInitializePrintSumMax {
 		// Finding the largest element
 		double max = myList[0];
 		for (int i = 1; i < myList.length; i++) {
-		  if (myList[i] > max) max = myList[i];
+		  if (myList[i] > max) 
+			  max = myList[i];
 		}
 		System.out.println("\nMax value is :- " + max);
 
 		input.close();
 	}
+	
 }

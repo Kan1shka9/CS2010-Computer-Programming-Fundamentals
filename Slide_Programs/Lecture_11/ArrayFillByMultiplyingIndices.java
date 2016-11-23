@@ -3,6 +3,7 @@ package CS2010.Lecture_11;
 public class ArrayFillByMultiplyingIndices {
 
 	public static void main(String[] args) {
+		
 		int rows = 6;
 		int columns = 11;
 		int[][] twoD = new int[rows][columns];
@@ -13,18 +14,20 @@ public class ArrayFillByMultiplyingIndices {
 		System.out.println(twoD[5].length);
 		
 		// Filling the elements of the matrix by multiplying the values of row and column.
-		for(int x = 0; x < twoD.length; x++){
-			for(int y = 0; y < twoD[x].length; y++){
+		for(int x = 0; x < twoD.length; x++) {
+			for(int y = 0; y < twoD[x].length; y++) {
 				twoD[x][y] = x * y;
 			}		
 		}
 		
 		// Printing the 2-D array to console
-		for(int x = 0; x < twoD.length; x++){
+		for(int x = 0; x < twoD.length; x++) {
 			System.out.println("\n");
-			for(int y = 0; y < twoD[x].length; y++){
+			for(int y = 0; y < twoD[x].length; y++) {
 				System.out.print("\t" + twoD[x][y]);
 			}		
 		}
+		
 	}
+	
 }

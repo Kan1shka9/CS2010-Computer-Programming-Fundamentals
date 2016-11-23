@@ -8,5 +8,7 @@ public class enhancedFor {
 		
 		for (double i: myList) 
 			  System.out.println(i);
+		
 	}
+	
 }

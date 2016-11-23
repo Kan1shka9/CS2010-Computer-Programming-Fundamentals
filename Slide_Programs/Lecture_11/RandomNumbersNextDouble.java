@@ -8,6 +8,7 @@ import java.util.Random;
 public class RandomNumbersNextDouble {
 	
 	public static void main(String[] args) {
+		
 		Random r = new Random();
 		double[] nums = new double[20];
 		
@@ -19,5 +20,7 @@ public class RandomNumbersNextDouble {
 		for (int i = 0; i < nums.length; i++)
 			System.out.println(nums[i]);
 			System.out.println("\n\n");
+			
 	}
+	
 }

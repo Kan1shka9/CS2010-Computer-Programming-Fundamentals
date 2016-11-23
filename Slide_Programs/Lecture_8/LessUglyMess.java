@@ -3,6 +3,7 @@ package CS2010.Lecture_8;
 public class LessUglyMess {
 
 	public static void main(String[] args) {
+		
 		final  double PI = 3.14159;
 		int radius;
 		double circumference;

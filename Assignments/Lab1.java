@@ -1,6 +1,7 @@
 package Homework1;
 
 public class Lab1 {	
+	
 	/**
 	 * Fahrenheit to Celsius converter
 	 * @param F is value in Fahrenheit
@@ -11,7 +12,7 @@ public class Lab1 {
 		return C;
 	}
 	
-	public static void main(String[] args){
+	public static void main(String[] args) {
 	/**
 	 * 1.) Declares an int with value 201 and casts it to a double
 	 */

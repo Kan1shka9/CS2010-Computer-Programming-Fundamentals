@@ -4,7 +4,7 @@ public class BinarySearch {
 
 	public static void main(String[] args) {
 		int[] myList = {1,2,3,4,5,6,7,8,9,0};
-		int key = 10;
+		int key = 9;
 		int index = binarySearch(myList, key);
 		System.out.println("The value " + key + " is at index : - " + index);
 	}
@@ -24,4 +24,5 @@ public class BinarySearch {
 		 }
 		 return -1 - low;		  
 	}
+	
 }

@@ -12,7 +12,7 @@ public class ParameterOrderDemo {
 		System.out.println("radius: " + radius + "; height: " + height + "; cylinder volume: " + cylVol);
 	}
 	
-	public static double calcCylinderVolume(double radius, double height){
+	public static double calcCylinderVolume(double radius, double height) {
 		return radius * radius * PI * height;
 	}
 

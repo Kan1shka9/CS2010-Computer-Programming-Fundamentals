@@ -3,6 +3,7 @@ package CS2010.Lecture_6;
 public class StringEqualTest {
 
 	public static void main(String[] args) {
+		
 		String s1 = "Welcome to Java";
 		
 		String s2 = new String("Welcome to Java");

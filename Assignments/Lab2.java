@@ -10,6 +10,7 @@
  * 8.) Think carefully about the test in the while or do...while loop. The loop should break after the output is shown for a grade that is near 2.0, which is a double.
  * 9.) For each possible grade, show the grade, the new GPA, and the change between the old and new GPAs.
  */
+
 package Homework1;
 
 import java.util.*;
@@ -17,6 +18,7 @@ import java.util.*;
 public class Lab2 {
 
 	public static void main(String[] args) {
+		
 		Scanner obj = new Scanner(System.in);
 		
 		int gpa = 0;
@@ -28,16 +30,16 @@ public class Lab2 {
 			do {
 				System.out.print("Enter your GPA :- ");
 				d_gpa = obj.nextDouble();
-			}while(d_gpa < 0.0 || d_gpa > 4.0);
-				System.out.println("The entered GPA is :- " + d_gpa);			
-	
+			} while(d_gpa < 0.0 || d_gpa > 4.0);
+			System.out.println("The entered GPA is :- " + d_gpa);			
 			do {
 				System.out.print("Enter the number of units :- ");
 				units = obj.nextDouble();
 				i_units = (int) units;
-			}while(i_units < 0);
+			} while(i_units < 0);
 			System.out.println("The total units you entered are :- " + i_units); 
-		} catch (Exception e) {
+		} 
+		catch (Exception e) {
 			System.out.println("Kindly enter a valid GPA/unit value.");
 		}
 		
@@ -47,11 +49,11 @@ public class Lab2 {
 		do{
 			double newGPA = ((d_gpa * i_units) + (UNITS_2011 * grade)) / (i_units + UNITS_2011);
 			System.out.printf("The new GPA value is :- %2.2f\n" , newGPA);
-			System.out.printf("Difference between old and new GPA :- %2.2f\n" , Math.abs(grade-4.0));
+			System.out.printf("Difference between old and new GPA :- %2.2f\n" , Math.abs(newGPA-d_gpa));
 			if (Math.abs(grade - 4.0) < 0.0001 || Math.abs(grade - 3.3) < 0.0001 || Math.abs(grade - 3.0) < 0.0001 || Math.abs(grade - 2.3) < 0.0001 || (Math.abs(grade - 2.0) < 0.0001)){
 				grade -= 0.3;
 			}
-			else if (Math.abs(grade - 3.7) < 0.0001 || Math.abs(grade - 2.7) < 0.0001){
+			else if (Math.abs(grade - 3.7) < 0.0001 || Math.abs(grade - 2.7) < 0.0001) {
 				grade -= 0.4;
 			}
 		} while (grade > 2.0);

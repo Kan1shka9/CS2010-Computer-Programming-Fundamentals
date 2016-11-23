@@ -7,7 +7,6 @@ public class LinearSearch {
 		int key = 8;
 		int index = linearSearch(myList, key);
 		System.out.println("The value " + key + " is at index : - " + index);
-
 	}
 	
 	public static int linearSearch(int[] list, int key) {
@@ -16,4 +15,5 @@ public class LinearSearch {
 		      return i;
 		  return -1;
 	}
+	
 }

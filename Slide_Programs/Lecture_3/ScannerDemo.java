@@ -5,7 +5,8 @@ import java.util.*;
 public class ScannerDemo {
 
 	public static void main(String[] args) {
-		String s = "Hello World! \n 3 + 3.0 = 6.0 true ";
+		
+			String s = "Hello World! \n 3 + 3.0 = 6.0 true ";
 
 		   // create a new scanner with the specified String Object
 		   Scanner scanner = new Scanner(s);

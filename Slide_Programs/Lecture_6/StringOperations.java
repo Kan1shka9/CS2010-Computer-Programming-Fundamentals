@@ -3,21 +3,22 @@ package CS2010.Lecture_6;
 public class StringOperations {
 
 	public static void main(String[] args) {
+		
 		String s1 = "Welcome To Java";
 		String s2 = new String("Welcome To Java");
 		String s3 = "Welcome To Java";
 		
 		// String content is same but different location
-		if (s1 == s2){
+		if (s1 == s2) {
 			System.out.println("Both strings (s1 and s2) are the same object in memory");
 		}
 		
 		// String content is same and s1 and s3 point to the same string (Interned strings)
-		if (s1 == s3){
+		if (s1 == s3) {
 			System.out.println("Both strings (s1 and s3) are the same object in memory");
 		}
 		
-		// String  -> equals
+		// String -> equals
 		if (s1.equals(s2)){  
 			System.out.println("s1 equals s2");  
 		}
@@ -34,18 +35,16 @@ public class StringOperations {
 			System.out.println("s4 and s5 are equal after ignoring cases");
 		}
 	
-		/*
 		// String -> compareToIgnoreCase
-		String s8 = "All";
-		String s9 = "all";
-		String s6 = "The";
+		String s8 = "qwertyuiop";
+		String s9 = "asd";
+		String s6 = "qwertyuiopasdfghjklzxcvbnm";
 		
 		int r1 = s8.compareToIgnoreCase(s9);
 		System.out.println(r1);
 		
 		int r2 = s8.compareToIgnoreCase(s6);
-		System.out.println(r2);
-		*/
+		System.out.println(r2);		
 		
 		// String concatenation
 		String myString = "Good ";
@@ -104,12 +103,6 @@ public class StringOperations {
 	    System.out.println(q8.lastIndexOf('i', 10));
 	    System.out.println(q8.lastIndexOf("text"));
 	    System.out.println(q8.lastIndexOf("text", 12));
-	    
-	    
-	    		
-	    
-		
-		
 
 	}
 

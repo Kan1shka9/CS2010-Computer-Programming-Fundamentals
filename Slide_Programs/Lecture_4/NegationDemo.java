@@ -1,7 +1,9 @@
 package CS2010.Lecture_4;
 
 public class NegationDemo {
+	
 	public static void main(String[] args){
+		
 		boolean a = true;
 		boolean b = true;
 		boolean c = true;
@@ -34,5 +36,7 @@ public class NegationDemo {
 		b = false;
 		c = false;
 		System.out.println(!(a &&(b||c))); // true
-		} // end main()
+		
+	}
+	
 }

@@ -11,11 +11,12 @@ public class AnonymousArray {
 	}
 	
 	//method which takes an array as argument
-    public static int sum(int[] numbers){
+    public static int sum(int[] numbers) {
         int total = 0;
         for(int i: numbers){
             total = total + i;
         }
         return total;
     }
+    
 }

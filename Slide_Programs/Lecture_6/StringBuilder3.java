@@ -3,6 +3,7 @@ package CS2010.Lecture_6;
 public class StringBuilder3 {
 
 	public static void main(String[] args) {
+		
 		StringBuilder sb = new StringBuilder("Bakey");
 		System.out.println(sb);
 		

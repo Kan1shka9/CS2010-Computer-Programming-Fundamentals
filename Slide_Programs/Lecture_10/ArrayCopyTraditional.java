@@ -3,6 +3,7 @@ package CS2010.Lecture_10;
 public class ArrayCopyTraditional {
 
 	public static void main(String[] args) {
+		
 		int[] sourceArray = {2, 3, 1, 5, 10};
 		int[] targetArray = new int[sourceArray.length];
 
@@ -14,6 +15,7 @@ public class ArrayCopyTraditional {
 		for (int j = 0; j < targetArray.length; j++) {
 			System.out.print(targetArray[j] + " ");
 		}
+		
 	}
 
 }

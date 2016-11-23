@@ -9,12 +9,11 @@ public class MenuLoopDemo {
 		d.menu();
 	}
 	
-	public void menu(){
+	public void menu() {
 		int choice = 0;
 		String[] options = {"Quit", "EasyA", "Swift Kick"};
 		do{
 			choice = JOptionPane.showOptionDialog(null, "Choose One", "Please Select One", 2, choice, null, options, options);
-
 			switch(choice){
 			case 1: easyA();
 			break;
@@ -24,11 +23,12 @@ public class MenuLoopDemo {
 		} while(choice != 0);		
 	}
 	
-	public void easyA(){
+	public void easyA() {
 		System.out.println("Easy A");
 	}
 	
-	public void swiftKick(){
+	public void swiftKick() {
 		System.out.println("Swift Kick!");
 	}
+	
 }

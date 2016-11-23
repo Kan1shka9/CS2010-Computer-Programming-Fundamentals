@@ -12,6 +12,7 @@
  * 		Volume of a cylinder: π r2 * height
  * 7.) Limit each variable to the most restrictive scope that will work.
  */
+
 package Homework1;
 
 import java.util.*;
@@ -45,7 +46,6 @@ public class Lab3 {
 		System.out.println("3.) Volume of a cylinder");
 		System.out.println("4.) Quit");
 		int choice = input.nextInt();
-		
 		
 			switch(choice) {
 	        case 1 :

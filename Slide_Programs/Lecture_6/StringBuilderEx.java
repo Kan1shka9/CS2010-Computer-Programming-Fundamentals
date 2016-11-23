@@ -3,6 +3,7 @@ package CS2010.Lecture_6;
 public class StringBuilderEx {
 
 	public static void main(String[] args) {
+		
 		StringBuilder stringBuilder = new StringBuilder("Welcome to ");
 		System.out.println(stringBuilder);
 		
@@ -32,6 +33,7 @@ public class StringBuilderEx {
 		
 		stringBuilder.setCharAt(0, 'w'); // sets the builder to welcome to Java.
 		System.out.println(stringBuilder);
+		
 	}
 
 }

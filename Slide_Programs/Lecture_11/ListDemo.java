@@ -5,6 +5,7 @@ import java.util.*;
 public class ListDemo {
 
 	public static void main(String[] args) {
+		
 		  // create the list 
 	      List<String> myList = new ArrayList<String>();
 	      
@@ -28,6 +29,7 @@ public class ListDemo {
 	      myList.remove(0);
 	      for(String s: myList) 
 	          System.out.println(s);
+	      
 	}
 
 }

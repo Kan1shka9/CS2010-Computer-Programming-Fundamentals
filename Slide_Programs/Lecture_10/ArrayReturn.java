@@ -8,16 +8,17 @@ public class ArrayReturn {
 		printArray(intArray);
 	}
 	
-	public static int[] getIntArray(int size){
+	public static int[] getIntArray(int size) {
 		int[] retArray = new int[size];
-		for(int counter = 1; counter <= size; counter++){
+		for(int counter = 1; counter <= size; counter++) {
 			retArray[counter-1]=counter;
 		}
 		return retArray;
 	}
 	
-	public static void printArray(int[] arrayToPrint){
+	public static void printArray(int[] arrayToPrint) {
 		for(int i = 0; i < arrayToPrint.length; i++)
 			System.out.println("array[" + i + "] contains value " + arrayToPrint[i]);
 	}
+	
 }
