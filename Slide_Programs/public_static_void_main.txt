@@ -1,0 +1,33 @@
+public static void main(String args[])
+
+public ->
+You can call this method from outside the class you are currently in
+This method is called by JRE which is outside your current class
+
+static ->
+When JVM maked calls to the main method there is no object existing for the class being called so the main method has to be static
+
+void ->
+return type
+Java is platform independent language and if it will return some value then the value may mean different things to different platforms.
+
+main ->
+Name of the method
+This name is fixed as it is called by the JVM as an entry point for an application
+
+String args[] ->
+These are the arguments of type String that your Java application accepts when you run it.
+
+public class ArgumentExample {
+    public static void main(String[] args) {
+        for(int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
+    }
+}
+
+-> javac ArgumentExample.java
+-> java ArgumentExample one two three
+one
+two
+three
