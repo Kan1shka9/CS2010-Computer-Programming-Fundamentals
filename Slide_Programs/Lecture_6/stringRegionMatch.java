@@ -4,11 +4,11 @@ public class stringRegionMatch {
 
 	public static void main(String[] args) {
 		
-		/**
-		 * public boolean regionMatches(int toffset, String other, int ooffset, int len)
-		 */
+	   /**
+	    * public boolean regionMatches(int toffset, String other, int ooffset, int len)
+	    */
 		
-		String Str1 = new String("Welcome to Tutorialspoint.com");
+	    String Str1 = new String("Welcome to Tutorialspoint.com");
 	    String Str2 = new String("Tutorials");
 	    String Str3 = new String("TUTORIALS");
 
